@@ -17,7 +17,3 @@ func FindCategories(c *gin.Context) {
 
 	c.JSON(http.StatusOK, categories)
 }
-
-//func FindCategoriesById(c *gin.Context) {
-//	var
-//}
